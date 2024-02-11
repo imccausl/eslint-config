@@ -30,4 +30,4 @@ const config: ESLint.ConfigData = {
   overrides,
 }
 
-export default config
+export = config

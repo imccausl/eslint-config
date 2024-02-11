@@ -5,6 +5,26 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "scripts": {
+    "clean": "rm -rf lib",
+    "compile": "tsc -b ./tsconfig.build.json",
+    "build": "yarn clean && yarn compile"
+  },
+  "main": "./lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./base": {
+      "default": "./lib/base/index.js"
+    },
+    "./react": {
+      "default": "./lib/react/index.js"
+    },
+    "./test": {
+      "default": "./lib/test/index.js"
+    }
+  },
   "devDependencies": {
     "@tanstack/eslint-plugin-query": "^5.20.1",
     "@types/eslint": "^8.56.2",

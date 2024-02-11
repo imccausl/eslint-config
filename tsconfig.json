@@ -6,7 +6,10 @@
     "outDir": "lib",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "noEmit": true,
+    "emitDeclarationOnly": false,
+    "declaration": false,
   },
   "include": [
     "src"

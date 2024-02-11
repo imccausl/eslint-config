@@ -132,4 +132,4 @@ const config: ESLint.ConfigData = {
   }
 }
 
-export default config
+export = config

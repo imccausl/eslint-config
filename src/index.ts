@@ -9,4 +9,4 @@ const config: ESLint.ConfigData = {
   rules: {}
 }
 
-export default config
+export = config
