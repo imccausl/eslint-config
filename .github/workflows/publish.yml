@@ -1,0 +1,32 @@
+name: Publish to NPM
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        with:
+          fetch-depth: 0
+        
+      - name: Prepare Env
+        uses: ./.github/actions/prepare-env@main
+
+      - name: Restore cache
+        id: restore-cache
+        uses:  actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2 # v4.0.0
+        with:
+          path: lib
+          key: ${{ runner.os }}-lib-${{ hashFiles('**/yarn.lock', '**/package.json', '**/src/**/*') }}
+      
+      - name: Build if not cached
+        if: steps.restore-cache.outputs.cache-hit != 'true'
+        run: yarn build
+
+      - name: Publish
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

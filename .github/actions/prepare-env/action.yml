@@ -1,0 +1,35 @@
+name: prepare-env
+description: Prepares Envionrment
+
+runs:
+  using: "composite"
+
+  steps:
+    - name: Setup Node
+      uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.2
+      with:
+        node-version-file: ".nvmrc"
+        registry-url: "https://registry.npmjs.org"
+
+    - name: Enable corepack
+      run: corepack enable
+      shell: bash
+
+    - name: Restore Yarn Cache
+      uses: actions/cache@v4
+      with:
+        path: |
+          .yarn/cache
+          .pnp.*
+        key: default-yarndeps-${{ hashFiles('yarn.lock') }}
+
+    - name: Yarn Install
+      run: yarn install --immutable
+      shell: bash
+
+    - name: Configure git
+      run: |
+        git config --global user.name a11y-react
+        git config --global user.email imccausl@gmail.com
+        git config --global init.defaultBranch main
+      shell: bash
