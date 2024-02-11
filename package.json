@@ -8,7 +8,8 @@
   "scripts": {
     "clean": "rm -rf lib",
     "compile": "tsc -b ./tsconfig.build.json",
-    "build": "yarn clean && yarn compile"
+    "build": "yarn clean && yarn compile",
+    "prepare": "husky"
   },
   "main": "./lib/index.js",
   "exports": {
@@ -26,6 +27,8 @@
     }
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.6.0",
+    "@commitlint/config-conventional": "^18.6.0",
     "@tanstack/eslint-plugin-query": "^5.20.1",
     "@types/eslint": "^8.56.2",
     "@types/node": "^20.11.17",
@@ -42,6 +45,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-testing-library": "^6.2.0",
+    "husky": "^9.0.10",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3"
   },
