@@ -5,21 +5,14 @@ on:
     branches:
       - main
   pull_request:
-    branches:
-      - main
 
 jobs:
   test-and-build:
+    name: Test and Build
     if: ${{ !contains('[skip_ci]', github.event.pull_request.title) }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Test and Build
-        uses: imccausl/eslint-config/.github/workflows/test-and-build.yml@main
+    uses: imccausl/eslint-config/.github/workflows/test-and-build.yml@main
 
   publish:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main' && !contains('[skip_ci]', github.event.pull_request.title)
-    runs-on: ubuntu-latest
     needs: test-and-build
-    steps:
-      - name: Publish
-        uses: imccausl/eslint-config/.github/workflows/publish.yml@main
+    uses: imccausl/eslint-config/.github/workflows/publish.yml@main
