@@ -5,7 +5,7 @@ permissions:
   issues: write
   pull-requests: write
   id-token: write
-  
+
 on:
   workflow_dispatch:
 
@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0
         
       - name: Prepare Env
-        uses: ./.github/actions/prepare-env@main
+        uses: imccausl/eslint-config/.github/actions/prepare-env@main
 
       - name: Restore cache
         id: restore-cache
