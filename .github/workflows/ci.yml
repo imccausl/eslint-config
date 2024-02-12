@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
 
 jobs:
   test-and-build:
@@ -13,8 +14,7 @@ jobs:
   publish:
     if: |
       github.event_name == 'push' &&
-      github.ref_name == github.event.repository.default_branch && 
-      !contains('[skip_ci]', github.event.pull_request.title)
+      github.ref_name == github.event.repository.default_branch
     needs: test-and-build
     permissions:
       contents: write
