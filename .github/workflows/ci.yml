@@ -2,15 +2,12 @@ name: CI
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
 
 jobs:
   test-and-build:
     name: Test and Build
-    if: |
-      !contains('[skip_ci]', github.event.pull_request.title)
     uses: imccausl/eslint-config/.github/workflows/test-and-build.yml@main
 
   publish:
