@@ -1,18 +1,16 @@
 name: Publish to NPM
 
-permissions:
-  contents: write
-  issues: write
-  pull-requests: write
-  id-token: write
-
 on:
-  workflow_dispatch:
   workflow_call:
 
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1

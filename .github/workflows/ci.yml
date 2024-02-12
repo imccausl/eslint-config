@@ -15,4 +15,10 @@ jobs:
   publish:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main' && !contains('[skip_ci]', github.event.pull_request.title)
     needs: test-and-build
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
     uses: imccausl/eslint-config/.github/workflows/publish.yml@main
+    secrets: inherit
