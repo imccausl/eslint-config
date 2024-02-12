@@ -5,62 +5,14 @@ on:
     branches:
       - main
   pull_request:
-    branches:
-      - main
 
 jobs:
-  lint:
+  test-and-build:
+    name: Test and Build
     if: ${{ !contains('[skip_ci]', github.event.pull_request.title) }}
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-        with:
-          fetch-depth: 0
+    uses: imccausl/eslint-config/.github/workflows/test-and-build.yml@main
 
-      - name: Prepare Env
-        uses: ./.github/actions/prepare-env
-
-      - name: lint
-        run: yarn lint
-
-  typecheck:
-    if: ${{ !contains('[skip_ci]', github.event.pull_request.title) }}
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-        with:
-          fetch-depth: 0
-
-      - name: Prepare Env
-        uses: ./.github/actions/prepare-env
-
-      - name: lint
-        run: yarn typecheck
-
-  build:
-    if: ${{ !contains('[skip_ci]', github.event.pull_request.title) }}
-    needs: [lint, typecheck]
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-        with:
-          fetch-depth: 0
-
-      - name: Prepare Env
-        uses: ./.github/actions/prepare-env
-        
-      - name: Cache build
-        uses: actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2 # v4.0.0
-        with:
-          path: lib
-          key: ${{ runner.os }}-lib-${{ hashFiles('**/yarn.lock', '**/package.json', '**/src/**/*') }}
-
-      - name: Build
-        run: |
-          yarn build
+  publish:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && !contains('[skip_ci]', github.event.pull_request.title)
+    needs: test-and-build
+    uses: imccausl/eslint-config/.github/workflows/publish.yml@main
