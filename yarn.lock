@@ -325,9 +325,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@imccausl/eslint-config@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@imccausl/eslint-config@npm:1.0.2"
+"@imccausl/eslint-config@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@imccausl/eslint-config@npm:1.0.3"
   peerDependencies:
     "@tanstack/eslint-plugin-query": ">=5.20.1"
     "@typescript-eslint/eslint-plugin": ">=6.21.0"
@@ -354,7 +354,7 @@ __metadata:
       optional: true
     eslint-plugin-react-hooks:
       optional: true
-  checksum: 10/639f70840c0feda6eac6d502b448671075d358d6fe1380ba9ed64df98c66388d8158024e3b271e8a7368a060d4a37f6c34631635a34b4163e06153e136f6234f
+  checksum: 10/56604e6cb29357255ca049657438bf3687ef95bf9c95f7d539c245b6676000990eb3cd0edb2901b53c6c15aee165572fa255273cf8142083fc7fb7576b0338e1
   languageName: node
   linkType: hard
 
@@ -364,7 +364,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:^18.6.0"
     "@commitlint/config-conventional": "npm:^18.6.0"
-    "@imccausl/eslint-config": "npm:^1.0.2"
+    "@imccausl/eslint-config": "npm:^1.0.3"
     "@semantic-release/github": "npm:^9.2.6"
     "@semantic-release/npm": "npm:^11.0.2"
     "@types/eslint": "npm:^8.56.2"
