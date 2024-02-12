@@ -21,7 +21,7 @@ if (doesModuleExist('jsx-a11y')) {
 
 if (doesModuleExist('@tanstack/eslint-plugin-query')) {
   plugins.push('@tanstack/query')
-  extensions.push('@tanstack/eslint-plugin-query/recommended')
+  extensions.push('plugin:@tanstack/eslint-plugin-query/recommended')
 }
 
 const config: ESLint.ConfigData = {
