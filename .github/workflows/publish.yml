@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0
         
       - name: Prepare Env
-        uses: imccausl/eslint-config/.github/actions/prepare-env@main
+        uses: ./.github/actions/prepare-env
 
       - name: Restore cache
         id: restore-cache
