@@ -2,7 +2,6 @@
   "name": "@imccausl/eslint-config",
   "version": "1.0.0",
   "packageManager": "yarn@4.1.0",
-  "private": false,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "tag": "latest"
