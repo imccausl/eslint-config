@@ -9,8 +9,41 @@ on:
       - main
 
 jobs:
+  lint:
+    if: ${{ !contains('[skip_ci]', github.event.pull_request.title) }}
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        with:
+          fetch-depth: 0
+
+      - name: Prepare Env
+        uses: ./.github/actions/prepare-env
+
+      - name: lint
+        run: yarn lint
+
+  typecheck:
+    if: ${{ !contains('[skip_ci]', github.event.pull_request.title) }}
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        with:
+          fetch-depth: 0
+
+      - name: Prepare Env
+        uses: ./.github/actions/prepare-env
+
+      - name: lint
+        run: yarn typecheck
+
   build:
     if: ${{ !contains('[skip_ci]', github.event.pull_request.title) }}
+    needs: [lint, typecheck]
     runs-on: ubuntu-latest
 
     steps:
