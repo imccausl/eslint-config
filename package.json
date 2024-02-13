@@ -5,6 +5,10 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imccausl/eslint-config.git"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "tag": "latest"
