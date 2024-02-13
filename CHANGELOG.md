@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/imccausl/eslint-config/compare/v1.0.4...v1.1.0) (2024-02-13)
+
+
+### Features
+
+* add eslint-plugin-testing-library as peer dep and update readme ([#12](https://github.com/imccausl/eslint-config/issues/12)) ([2a7a5f4](https://github.com/imccausl/eslint-config/commit/2a7a5f45669c0fe45b503b060cc1f803480c7b63))
+
 ## [1.0.4](https://github.com/imccausl/eslint-config/compare/v1.0.3...v1.0.4) (2024-02-13)
 
 
