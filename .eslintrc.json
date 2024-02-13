@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@imccausl"
+    "@imccausl/eslint-config"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
