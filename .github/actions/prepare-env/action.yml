@@ -26,10 +26,3 @@ runs:
     - name: Yarn Install
       run: yarn install --immutable
       shell: bash
-
-    - name: Configure git
-      run: |
-        git config --global user.name a11y-react
-        git config --global user.email imccausl@gmail.com
-        git config --global init.defaultBranch main
-      shell: bash
