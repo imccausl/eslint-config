@@ -12,6 +12,7 @@ jobs:
     uses: imccausl/eslint-config/.github/workflows/test-and-build.yml@main
 
   publish:
+    name: Publish
     if: |
       github.event_name == 'push' &&
       github.ref_name == github.event.repository.default_branch
