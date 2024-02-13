@@ -10,7 +10,8 @@
       {
         "assets": [
           "CHANGELOG.md"
-        ]
+        ],
+        "message": "chore(release): [skip ci] update changelog"
       }
     ]
   ],

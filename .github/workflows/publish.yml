@@ -5,6 +5,7 @@ on:
 
 jobs:
   publish:
+    name: Publish
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,8 +15,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-        with:
-          fetch-depth: 0
         
       - name: Prepare Env
         uses: ./.github/actions/prepare-env
@@ -25,7 +24,7 @@ jobs:
         uses:  actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2 # v4.0.0
         with:
           path: lib
-          key: ${{ runner.os }}-lib-${{ hashFiles('**/yarn.lock', '**/package.json', '**/src/**/*') }}
+          key: lib-${{ hashFiles('**/yarn.lock', '**/package.json', '**/src/**/*') }}
       
       - name: Build if not cached
         if: steps.restore-cache.outputs.cache-hit != 'true'
@@ -37,3 +36,4 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           YARN_NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
