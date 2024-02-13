@@ -325,46 +325,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@imccausl/eslint-config@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@imccausl/eslint-config@npm:1.0.3"
-  peerDependencies:
-    "@tanstack/eslint-plugin-query": ">=5.20.1"
-    "@typescript-eslint/eslint-plugin": ">=6.21.0"
-    "@typescript-eslint/parser": ">=6.21.0"
-    "@yarnpkg/sdks": ">=3.1.0"
-    eslint: ">=8"
-    eslint-config-prettier: ">=9.1.0"
-    eslint-import-resolver-node: ">=0.3.9"
-    eslint-import-resolver-typescript: ">=3.6.1"
-    eslint-plugin-import: ">=2.29.1"
-    eslint-plugin-jsx-a11y: ">=6.8.0"
-    eslint-plugin-prettier: ">=5.1.3"
-    eslint-plugin-react: ">=7.33.2"
-    eslint-plugin-react-hooks: ">=4.6.0"
-    eslint-plugin-vitest: ">=0.3.22"
-    prettier: ">=3.2.5"
-    typescript: ">=5.3"
-  peerDependenciesMeta:
-    "@tanstack/eslint-plugin-query":
-      optional: true
-    eslint-plugin-jsx-a11y:
-      optional: true
-    eslint-plugin-react:
-      optional: true
-    eslint-plugin-react-hooks:
-      optional: true
-  checksum: 10/56604e6cb29357255ca049657438bf3687ef95bf9c95f7d539c245b6676000990eb3cd0edb2901b53c6c15aee165572fa255273cf8142083fc7fb7576b0338e1
-  languageName: node
-  linkType: hard
-
-"@imccausl/eslint-config@workspace:.":
+"@imccausl/eslint-config@npm:^1.0.4, @imccausl/eslint-config@workspace:.":
   version: 0.0.0-use.local
   resolution: "@imccausl/eslint-config@workspace:."
   dependencies:
     "@commitlint/cli": "npm:^18.6.0"
     "@commitlint/config-conventional": "npm:^18.6.0"
-    "@imccausl/eslint-config": "npm:^1.0.3"
+    "@imccausl/eslint-config": "npm:^1.0.4"
     "@semantic-release/changelog": "npm:^6.0.3"
     "@semantic-release/git": "npm:^10.0.1"
     "@types/eslint": "npm:^8.56.2"
