@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/imccausl/eslint-config/compare/v1.1.0...v1.2.0) (2024-02-21)
+
+
+### Features
+
+* add optional eslint-plugin-jest config ([#14](https://github.com/imccausl/eslint-config/issues/14)) ([32a4e55](https://github.com/imccausl/eslint-config/commit/32a4e5521b2a6baf201fdef5d4c99b71d97fb5b7))
+
 # [1.1.0](https://github.com/imccausl/eslint-config/compare/v1.0.4...v1.1.0) (2024-02-13)
 
 
