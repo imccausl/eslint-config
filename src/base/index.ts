@@ -77,11 +77,13 @@ const rules: ESLint.ConfigData['rules'] = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/ban-ts-comment': 'warn', // Discourage disabling static analysis.
     '@typescript-eslint/ban-types': 'warn', // Discourage disabling static analysis.
+    '@typescript-eslint/consistent-type-definitions': 'off',
     '@typescript-eslint/consistent-type-imports': [
         'error',
         { prefer: 'type-imports', fixStyle: 'inline-type-imports' },
     ],
     '@typescript-eslint/no-duplicate-enum-values': 'warn',
+    '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-for-in-array': 'error',
     '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
     '@typescript-eslint/prefer-includes': 'warn',
