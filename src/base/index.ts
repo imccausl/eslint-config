@@ -73,6 +73,7 @@ const rules: ESLint.ConfigData['rules'] = {
     ],
 
     /* Typescript Types */
+    '@typescript-eslint/array-type': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/ban-ts-comment': 'warn', // Discourage disabling static analysis.
