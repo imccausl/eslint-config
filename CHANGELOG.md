@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/imccausl/eslint-config/compare/v1.2.1...v1.3.0) (2024-08-05)
+
+
+### Features
+
+* turn off no-empty-function and type-def rules ([#37](https://github.com/imccausl/eslint-config/issues/37)) ([2a9116f](https://github.com/imccausl/eslint-config/commit/2a9116f4bce266f55056573ea6040b11800e53cf))
+
 ## [1.2.1](https://github.com/imccausl/eslint-config/compare/v1.2.0...v1.2.1) (2024-08-05)
 
 
