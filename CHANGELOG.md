@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/imccausl/eslint-config/compare/v1.2.0...v1.2.1) (2024-08-05)
+
+
+### Bug Fixes
+
+* update yarn to 4.3.1 and fix eslint peer range ([#18](https://github.com/imccausl/eslint-config/issues/18)) ([bed130a](https://github.com/imccausl/eslint-config/commit/bed130af0b3207af69bb284463840c86565adcfd))
+
 # [1.2.0](https://github.com/imccausl/eslint-config/compare/v1.1.0...v1.2.0) (2024-02-21)
 
 
