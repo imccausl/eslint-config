@@ -383,7 +383,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.33.2"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-testing-library: "npm:^6.2.0"
-    eslint-plugin-vitest: "npm:^0.5.4"
+    eslint-plugin-vitest: "npm:~0.4.1"
     husky: "npm:^9.0.10"
     prettier: "npm:^3.2.5"
     semantic-release: "npm:^23.0.2"
@@ -404,7 +404,7 @@ __metadata:
     eslint-plugin-react: ">=7.33.2"
     eslint-plugin-react-hooks: ">=4.6.0"
     eslint-plugin-testing-library: ">=6.2.0"
-    eslint-plugin-vitest: ">=0.3.22"
+    eslint-plugin-vitest: <=0.4.1
     prettier: ">=3.2.5"
     typescript: ">=5.3"
   peerDependenciesMeta:
@@ -1376,7 +1376,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^7.7.1":
+"@typescript-eslint/utils@npm:^7.4.0":
   version: 7.18.0
   resolution: "@typescript-eslint/utils@npm:7.18.0"
   dependencies:
@@ -3074,20 +3074,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vitest@npm:^0.5.4":
-  version: 0.5.4
-  resolution: "eslint-plugin-vitest@npm:0.5.4"
+"eslint-plugin-vitest@npm:~0.4.1":
+  version: 0.4.1
+  resolution: "eslint-plugin-vitest@npm:0.4.1"
   dependencies:
-    "@typescript-eslint/utils": "npm:^7.7.1"
+    "@typescript-eslint/utils": "npm:^7.4.0"
   peerDependencies:
-    eslint: ^8.57.0 || ^9.0.0
+    eslint: ">=8.0.0"
     vitest: "*"
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
     vitest:
       optional: true
-  checksum: 10/a81eda0b6fff5f05afa9e4e2deb114562e8a53e224293a0dd3f524c01a240a1f8b6c7284d15862c5b740adc6816a2f23e5b96fc65d95c0abd24a5ef171215589
+  checksum: 10/097f8f8c0326e7c87b8ffb50d647f4ddbcbd9fb1bf24e4700d9cb248240d17a4e688b934e9217a5a7672e34d11943fa7ee47db38bb41b5fbeddcf40aa3ac48eb
   languageName: node
   linkType: hard
 
