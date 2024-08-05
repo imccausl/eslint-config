@@ -1,6 +1,6 @@
 {
   "name": "@imccausl/eslint-config",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "packageManager": "yarn@4.4.0",
   "files": [
     "lib"

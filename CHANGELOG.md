@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/imccausl/eslint-config/compare/v1.3.0...v1.4.0) (2024-08-05)
+
+
+### Features
+
+* turn off array-type rule by default ([#38](https://github.com/imccausl/eslint-config/issues/38)) ([7b47aab](https://github.com/imccausl/eslint-config/commit/7b47aab09ad906a1957264989ddc2d79890352e0))
+
 # [1.3.0](https://github.com/imccausl/eslint-config/compare/v1.2.1...v1.3.0) (2024-08-05)
 
 
