@@ -19,6 +19,9 @@ updates:
       - dependency-name: "eslint"
         versions:
           - ">= 9" # some plugins aren't compatible with eslint 9 yet
+      - dependency-name: "eslint-plugin-vitest"
+        versions:
+          - "0.5.x" # not compatible wth eslint 8
 
     groups:
       semantic-release:
