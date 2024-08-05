@@ -61,7 +61,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-testing-library": "^6.2.0",
     "eslint-plugin-vitest": "~0.4.1",
-    "husky": "^9.0.10",
+    "husky": "^9.1.4",
     "prettier": "^3.2.5",
     "semantic-release": "^23.0.2",
     "semantic-release-yarn": "^3.0.2",
