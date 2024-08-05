@@ -6,6 +6,8 @@
 version: 2
 updates:
   - package-ecosystem: npm
+    commit-message:
+      prefix: deps
     directory: "/" # Location of package manifests
     schedule:
       interval: weekly
@@ -43,6 +45,8 @@ updates:
           - "@types/eslint"
 
   - package-ecosystem: github-actions
+    commit-message:
+      prefix: "ci"
     directory: "/"
     schedule:
       interval: weekly
