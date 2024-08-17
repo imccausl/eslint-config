@@ -325,15 +325,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@imccausl/eslint-config@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "@imccausl/eslint-config@npm:1.0.4"
+"@imccausl/eslint-config@npm:*":
+  version: 1.4.0
+  resolution: "@imccausl/eslint-config@npm:1.4.0"
   peerDependencies:
     "@tanstack/eslint-plugin-query": ">=5.20.1"
     "@typescript-eslint/eslint-plugin": ">=6.21.0"
     "@typescript-eslint/parser": ">=6.21.0"
     "@yarnpkg/sdks": ">=3.1.0"
-    eslint: ">=8"
+    eslint: ^8 || ^9
     eslint-config-prettier: ">=9.1.0"
     eslint-import-resolver-node: ">=0.3.9"
     eslint-import-resolver-typescript: ">=3.6.1"
@@ -342,11 +342,14 @@ __metadata:
     eslint-plugin-prettier: ">=5.1.3"
     eslint-plugin-react: ">=7.33.2"
     eslint-plugin-react-hooks: ">=4.6.0"
-    eslint-plugin-vitest: ">=0.3.22"
+    eslint-plugin-testing-library: ">=6.2.0"
+    eslint-plugin-vitest: <=0.4.1
     prettier: ">=3.2.5"
     typescript: ">=5.3"
   peerDependenciesMeta:
     "@tanstack/eslint-plugin-query":
+      optional: true
+    eslint-plugin-jest:
       optional: true
     eslint-plugin-jsx-a11y:
       optional: true
@@ -354,7 +357,11 @@ __metadata:
       optional: true
     eslint-plugin-react-hooks:
       optional: true
-  checksum: 10/293d3417026611e497f2b60f6aef226e6c40d52d2f6df2707e9fd24d5db453d0073def3c7dad88b2cdfda6ebe1642b786408b7756c71b78fe32443fd8c08c598
+    eslint-plugin-testing-library:
+      optional: true
+    eslint-plugin-vitest:
+      optional: true
+  checksum: 10/1bd001ef9610adec0dc83c99799672fbe1d484261638e70b4b8077e5f6e6ac635638fd8294125c778a7c73dc0cd21144502ba2d89ae9163c0590a29c3c41aebb
   languageName: node
   linkType: hard
 
@@ -364,7 +371,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:^18.6.0"
     "@commitlint/config-conventional": "npm:^18.6.0"
-    "@imccausl/eslint-config": "npm:^1.0.4"
+    "@imccausl/eslint-config": "npm:*"
     "@semantic-release/changelog": "npm:^6.0.3"
     "@semantic-release/git": "npm:^10.0.1"
     "@types/eslint": "npm:^8.56.2"
@@ -377,7 +384,7 @@ __metadata:
     eslint-import-resolver-node: "npm:^0.3.9"
     eslint-import-resolver-typescript: "npm:^3.6.1"
     eslint-plugin-import: "npm:^2.29.1"
-    eslint-plugin-jest: "npm:^27.9.0"
+    eslint-plugin-jest: "npm:^28.8.0"
     eslint-plugin-jsx-a11y: "npm:^6.8.0"
     eslint-plugin-prettier: "npm:^5.2.1"
     eslint-plugin-react: "npm:^7.33.2"
@@ -1337,7 +1344,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:8.1.0":
+"@typescript-eslint/utils@npm:8.1.0, @typescript-eslint/utils@npm:^6.0.0 || ^7.0.0 || ^8.0.0":
   version: 8.1.0
   resolution: "@typescript-eslint/utils@npm:8.1.0"
   dependencies:
@@ -1351,7 +1358,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.58.0":
+"@typescript-eslint/utils@npm:^5.58.0":
   version: 5.62.0
   resolution: "@typescript-eslint/utils@npm:5.62.0"
   dependencies:
@@ -2957,21 +2964,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^27.9.0":
-  version: 27.9.0
-  resolution: "eslint-plugin-jest@npm:27.9.0"
+"eslint-plugin-jest@npm:^28.8.0":
+  version: 28.8.0
+  resolution: "eslint-plugin-jest@npm:28.8.0"
   dependencies:
-    "@typescript-eslint/utils": "npm:^5.10.0"
+    "@typescript-eslint/utils": "npm:^6.0.0 || ^7.0.0 || ^8.0.0"
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^5.0.0 || ^6.0.0 || ^7.0.0
-    eslint: ^7.0.0 || ^8.0.0
+    "@typescript-eslint/eslint-plugin": ^6.0.0 || ^7.0.0 || ^8.0.0
+    eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
     jest: "*"
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
     jest:
       optional: true
-  checksum: 10/bca54347280c06c56516faea76042134dd74355c2de6c23361ba0e8736ecc01c62b144eea7eda7570ea4f4ee511c583bb8dab00d7153a1bd1740eb77b0038fd4
+  checksum: 10/0da6aba90067845ef723f70f40ab7f79fabf3465e46014b8aafee15c2cb4ce648a0f7b57c758127d770928994ee2a0f4c68dbcfbce582dd021d6a8e240f69f9d
   languageName: node
   linkType: hard
 
