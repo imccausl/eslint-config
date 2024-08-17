@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/imccausl/eslint-config/compare/v1.4.0...v2.0.0) (2024-08-17)
+
+
+### Bug Fixes
+
+* skip linting to publish new version ([02b7cec](https://github.com/imccausl/eslint-config/commit/02b7cecb7ce04020dfdff5c53382379a4ee50d8f))
+
+
+### Features
+
+* remove ban-types rule ([#42](https://github.com/imccausl/eslint-config/issues/42)) ([9172efd](https://github.com/imccausl/eslint-config/commit/9172efdf84233521d92f6043d32f93679570bc97))
+
+
+### BREAKING CHANGES
+
+* This config removes support for @typescript-eslint/eslint-plugin lower than 8.0. The ban-types rule has been removed and replaced with the new rules outlined here https://typescript-eslint.io/rules/ban-types/
+
 # [1.4.0](https://github.com/imccausl/eslint-config/compare/v1.3.0...v1.4.0) (2024-08-05)
 
 
