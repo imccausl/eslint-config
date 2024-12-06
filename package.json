@@ -1,7 +1,7 @@
 {
   "name": "@imccausl/eslint-config",
   "version": "2.0.0",
-  "packageManager": "yarn@4.4.0",
+  "packageManager": "yarn@4.5.3",
   "files": [
     "lib"
   ],
@@ -80,7 +80,7 @@
     "prettier": "^3.3.3",
     "semantic-release": "^23.0.2",
     "semantic-release-yarn": "^3.0.2",
-    "typescript": "^5.5.4"
+    "typescript": "^5.7.2"
   },
   "peerDependencies": {
     "@tanstack/eslint-plugin-query": ">=5.20.1",
