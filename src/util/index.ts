@@ -9,12 +9,12 @@ const doesModuleExist = (moduleName: string) => {
 
 export const importModuleIfExists = async (moduleName: string) => {
     /**
-     * Yarn pnp still throws an error that seems to 
+     * Yarn pnp still throws an error that seems to
      * supercede this try catch so we need to check if it exists
      * first before importing, which is annoying and feels
      * extremely unnecessary.
      */
-    if (!(doesModuleExist(moduleName))) return null
+    if (!doesModuleExist(moduleName)) return null
 
     try {
         return (await import(moduleName)).default

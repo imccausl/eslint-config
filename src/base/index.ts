@@ -1,10 +1,11 @@
-import { languageOptions } from './languageOptions.js'
-import { rules } from './rules.js'
-import { settings } from './settings.js'
 import js from '@eslint/js'
 import importPlugin from 'eslint-plugin-import-x'
 import prettierRecommended from 'eslint-plugin-prettier/recommended'
 import ts from 'typescript-eslint'
+
+import { languageOptions } from './languageOptions.js'
+import { rules } from './rules.js'
+import { settings } from './settings.js'
 
 export default [
     js.configs.recommended,
@@ -23,8 +24,8 @@ export default [
             '**/*.cjs',
             '**/*.jsx',
         ],
-       languageOptions,
-       settings,
-       rules,
+        languageOptions,
+        settings,
+        rules,
     },
 ]

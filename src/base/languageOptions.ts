@@ -16,6 +16,6 @@ export const languageOptions = {
     parser,
     parserOptions: {
         projectService: true,
-        tsConfigRootDir: import.meta.dirname
-    }
+        tsConfigRootDir: import.meta.dirname,
+    },
 }

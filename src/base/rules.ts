@@ -1,5 +1,3 @@
-import type { ESLint } from 'eslint'
-
 export const rules = {
     'prettier/prettier': [
         'error',

@@ -8,7 +8,7 @@ const config = [
     ...(await importExtendedConfigs(pluginModules)),
     ...(await createHooksPluginConfig()),
     {
-        //languageOptions,
+        languageOptions,
         rules: {},
         settings: {
             react: {
