@@ -25,7 +25,7 @@ export default [
             '**/*.jsx',
         ],
         languageOptions,
-        settings,
+        settings: settings(),
         rules,
     },
 ]

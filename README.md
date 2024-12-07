@@ -20,7 +20,6 @@ yarn add -D \
   eslint-plugin-prettier \
   eslint-plugin-import-x \ 
   eslint-import-resolver-typescript \
-  eslint-import-resolver-node \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser
 ```
