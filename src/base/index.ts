@@ -1,7 +1,7 @@
-import { languageOptions } from './languageOptions'
-import { extendedConfigs, plugins } from './plugins'
-import { rules } from './rules'
-import { settings } from './settings'
+import { languageOptions } from './languageOptions.js'
+import { extendedConfigs, plugins } from './plugins.js'
+import { rules } from './rules.js'
+import { settings } from './settings.js'
 
 export default [
     ...extendedConfigs,

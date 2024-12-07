@@ -1,12 +1,9 @@
-import type { ESLint } from 'eslint'
+import baseConfig from './base/index.js'
+import reactConfig from './react/index.js'
+import testConfig from './test/index.js'
 
-const config: ESLint.ConfigData = {
-    extends: [
-        '@imccausl/eslint-config/base',
-        '@imccausl/eslint-config/react',
-        '@imccausl/eslint-config/test',
-    ],
-    rules: {},
-}
-
-export = config
+export default [
+    ...baseConfig,
+    ...reactConfig,
+    ...testConfig,
+]

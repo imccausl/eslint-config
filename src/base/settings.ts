@@ -1,6 +1,5 @@
 // @ts-expect-error no types for this package yet
 import nodeImportResolver from 'eslint-import-resolver-node'
-// @ts-expect-error no types for this package yet
 import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript'
 
 export const settings = {
