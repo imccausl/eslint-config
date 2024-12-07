@@ -10,6 +10,9 @@
     "noEmit": true,
     "emitDeclarationOnly": false,
     "declaration": false,
+    "lib": [
+      "ESNext",
+    ]
   },
   "include": [
     "src"
