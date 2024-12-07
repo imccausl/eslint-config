@@ -3,7 +3,7 @@ import { importModuleIfExists } from '../util/index.js'
 import { files } from './files.js'
 
 export const createVitestPluginConfig = async () => {
-    const vitestPlugin = await importModuleIfExists('eslint-plugin-vitest')
+    const vitestPlugin = await importModuleIfExists('@vitest/eslint-plugin')
     if (!vitestPlugin) return []
     return [
         {

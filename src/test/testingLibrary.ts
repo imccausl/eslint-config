@@ -4,18 +4,13 @@ import { files } from './files.js'
 
 export const createTestingLibraryPluginConfig = async () => {
     const testingLibraryPlugin = await importModuleIfExists(
-        '@testing-library/eslint-plugin',
+        'eslint-plugin-testing-library',
     )
     if (!testingLibraryPlugin) return []
     return [
         {
             files,
-            plugins: {
-                'testing-library': testingLibraryPlugin,
-            },
-            rules: {
-                ...testingLibraryPlugin.configs.react,
-            },
+            ...testingLibraryPlugin.configs['flat/react'],
         },
     ]
 }

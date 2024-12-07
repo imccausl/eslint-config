@@ -1,6 +1,6 @@
 import type { ESLint } from 'eslint'
 
-export const rules: ESLint.ConfigData['rules'] = {
+export const rules = {
     'prettier/prettier': [
         'error',
         {
@@ -40,17 +40,17 @@ export const rules: ESLint.ConfigData['rules'] = {
             ignoreDeclarationSort: true,
         },
     ],
-    'import/default': 'error',
-    'import/export': 'error',
-    'import/named': 'error',
-    'import/newline-after-import': 'error',
-    'import/no-absolute-path': 'error',
-    'import/no-duplicates': 'error',
-    'import/no-mutable-exports': 'error',
-    'import/no-self-import': 'error',
-    'import/no-useless-path-segments': 'error',
-    'import/no-unresolved': 'error',
-    'import/order': [
+    'import-x/default': 'error',
+    'import-x/export': 'error',
+    'import-x/named': 'error',
+    'import-x/newline-after-import': 'error',
+    'import-x/no-absolute-path': 'error',
+    'import-x/no-duplicates': 'error',
+    'import-x/no-mutable-exports': 'error',
+    'import-x/no-self-import': 'error',
+    'import-x/no-useless-path-segments': 'error',
+    'import-x/no-unresolved': 'error',
+    'import-x/order': [
         'error',
         {
             'newlines-between': 'always',

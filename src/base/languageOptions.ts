@@ -14,4 +14,8 @@ export const languageOptions = {
         ...globals.browser,
     },
     parser,
+    parserOptions: {
+        projectService: true,
+        tsConfigRootDir: import.meta.dirname
+    }
 }
