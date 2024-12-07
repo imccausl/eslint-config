@@ -15,13 +15,7 @@ updates:
     ignore:
       - dependency-name: "@types/node"
         versions:
-          - ">= 21" # until 22 is lts
-      - dependency-name: "eslint"
-        versions:
-          - ">= 9" # some plugins aren't compatible with eslint 9 yet
-      - dependency-name: "eslint-plugin-vitest"
-        versions:
-          - "0.5.x" # not compatible wth eslint 8
+          - ">= 22" # until 22 is lts
 
     groups:
       semantic-release:

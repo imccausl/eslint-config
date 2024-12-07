@@ -1,4 +1,4 @@
-import { doesModuleExist } from '../util'
+import { importModuleIfExists } from '../util'
 
 import type { ESLint, Linter } from 'eslint'
 
@@ -6,13 +6,13 @@ const overrides: ESLint.ConfigData['overrides'] = []
 const extensions: ESLint.ConfigData['extends'] = []
 const plugins: ESLint.ConfigData['plugins'] = []
 
-const doesJestPluginExist = doesModuleExist('eslint-plugin-jest')
+const doesJestPluginExist = importModuleIfExists('eslint-plugin-jest')
 
-if (doesModuleExist('eslint-plugin-testing-library')) {
+if (importModuleIfExists('eslint-plugin-testing-library')) {
     extensions.push('plugin:testing-library/react')
 }
 
-if (doesModuleExist('eslint-plugin-vitest')) {
+if (importModuleIfExists('@vitest/eslint-plugin')) {
     extensions.push('plugin:vitest/recommended')
     plugins.push('vitest')
 }

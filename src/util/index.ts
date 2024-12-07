@@ -1,8 +1,7 @@
-export const doesModuleExist = (moduleName: string) => {
+export const importModuleIfExists = async (moduleName: string) => {
     try {
-        require.resolve(moduleName)
-        return true
+        return import(moduleName)
     } catch {
-        return false
+        return null
     }
 }

@@ -18,7 +18,7 @@ yarn add -D \
   prettier \
   eslint-config-prettier \
   eslint-plugin-prettier \
-  eslint-plugin-import \ 
+  eslint-plugin-import-x \ 
   eslint-import-resolver-typescript \
   eslint-import-resolver-node \
   @typescript-eslint/eslint-plugin \
@@ -38,7 +38,8 @@ And for the testing config, include these dependencies:
 
 ```bash
 yarn add -D \
-  eslint-plugin-vitest \
+  @vitest/eslint-plugin \
+  @typescript-eslint/utils \
   eslint-plugin-testing-library
 ```
 
