@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/imccausl/eslint-config/compare/v2.0.0...v3.0.0) (2024-12-07)
+
+
+### Features
+
+* update to use flat config and require eslint 9 ([#95](https://github.com/imccausl/eslint-config/issues/95)) ([cba2a39](https://github.com/imccausl/eslint-config/commit/cba2a391e756a0acd14d8bc729a4cbd37c808270))
+
+
+### BREAKING CHANGES
+
+* This version requires the eslint flat config format. There have also been a number of peer dependency version changes. Make sure you are on up to date versions of eslint and any eslint plugins you install to support this package.
+
 # [2.0.0](https://github.com/imccausl/eslint-config/compare/v1.4.0...v2.0.0) (2024-08-17)
 
 
