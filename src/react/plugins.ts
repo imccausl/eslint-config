@@ -7,4 +7,3 @@ export const pluginModules = [
         path: ['flat/recommended'],
     },
 ]
-

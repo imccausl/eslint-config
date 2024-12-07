@@ -1,5 +1,5 @@
- export const languageOptions = {
-        ecmaFeatures: {
-            jsx: true,
-        },
- }
+export const languageOptions = {
+    ecmaFeatures: {
+        jsx: true,
+    },
+}

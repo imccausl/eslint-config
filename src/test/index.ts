@@ -1,5 +1,5 @@
 import { createJestPluginConfig } from './jest.js'
-import { createTestingLibraryPluginConfig } from './testingLibrary.js' 
+import { createTestingLibraryPluginConfig } from './testingLibrary.js'
 import { createVitestPluginConfig } from './vitest.js'
 
 const pluginConfigs = [
@@ -8,6 +8,4 @@ const pluginConfigs = [
     createVitestPluginConfig(),
 ]
 
-export default [
-    ...(await Promise.all(pluginConfigs)),
-]
+export default [...(await Promise.all(pluginConfigs))]
