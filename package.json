@@ -61,10 +61,12 @@
     "@semantic-release/git": "^10.0.1",
     "@types/eslint": "^8.56.2",
     "@types/node": "^20.17.9",
-    "@typescript-eslint/eslint-plugin": "^8.16.0",
-    "@typescript-eslint/parser": "^8.16.0",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "@typescript-eslint/utils": "^8.17.0",
+    "@vitest/eslint-plugin": "^1.1.14",
     "@yarnpkg/sdks": "^3.2.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.16.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-node": "^0.3.9",
     "eslint-import-resolver-typescript": "^3.6.3",
@@ -75,7 +77,6 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-testing-library": "^7.0.0",
-    "eslint-plugin-vitest": "~0.4.1",
     "husky": "^9.1.7",
     "prettier": "^3.3.3",
     "semantic-release": "^23.0.2",
@@ -86,6 +87,7 @@
     "@tanstack/eslint-plugin-query": ">=5.20.1",
     "@typescript-eslint/eslint-plugin": ">=8.0.0",
     "@typescript-eslint/parser": ">=8.0.0",
+    "@vitest/eslint-plugin": "<=1.1.14",
     "@yarnpkg/sdks": ">=3.1.0",
     "eslint": "^8 || ^9",
     "eslint-config-prettier": ">=9.1.0",
@@ -97,12 +99,14 @@
     "eslint-plugin-react": ">=7.33.2",
     "eslint-plugin-react-hooks": ">=4.6.0",
     "eslint-plugin-testing-library": ">=6.2.0",
-    "eslint-plugin-vitest": "<=0.4.1",
     "prettier": ">=3.2.5",
     "typescript": ">=5.3"
   },
   "peerDependenciesMeta": {
     "@tanstack/eslint-plugin-query": {
+      "optional": true
+    },
+    "@vitest/eslint-plugin": {
       "optional": true
     },
     "eslint-plugin-jest": {
@@ -118,9 +122,6 @@
       "optional": true
     },
     "eslint-plugin-testing-library": {
-      "optional": true
-    },
-    "eslint-plugin-vitest": {
       "optional": true
     }
   }
