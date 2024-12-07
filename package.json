@@ -40,7 +40,7 @@
     "typecheck": "tsc --noEmit"
   },
   "main": "./src/index.ts",
-  "exporjs": {
+  "exports": {
     ".": {
       "default": "./src/index.ts"
     },
