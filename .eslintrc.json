@@ -1,8 +1,0 @@
-{
-  "extends": [
-    "@imccausl/eslint-config"
-  ],
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  }
-}

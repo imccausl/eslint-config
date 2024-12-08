@@ -55,4 +55,4 @@ export default [
 ]
 ```
 
-If you are using earlier verisons of eslint, or are not yet ready for the flat config, you can continue to use version 2.
+If you are using earlier verisons of eslint, or are not yet ready for the flat config, you can continue to use version 2 (it won't be getting anymore updates though).
