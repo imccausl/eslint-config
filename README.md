@@ -42,15 +42,17 @@ yarn add -D \
   eslint-plugin-testing-library
 ```
 
-With dependencies installed, your eslint config can be extended like this:
+### Flat Config
 
-```json
-{
-  "extends": [
-    "@imccausl/eslint-config"
-  ],
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  }
-}
+Version 3+ uses the eslint flat config. You can set it up like this:
+
+```js
+import eslintConfig from '@imccausl/eslint-config'
+
+export default [
+  ...eslintConfig
+  // other configs
+]
 ```
+
+If you are using earlier verisons of eslint, or are not yet ready for the flat config, you can continue to use version 2.
