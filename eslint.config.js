@@ -7,10 +7,5 @@ export default [
     ...eslintConfig,
     {
         files: ['src/**/*.ts'],
-        languageOptions: {
-            parserOptions: {
-                project: './tsconfig.json',
-            },
-        },
     },
 ]
