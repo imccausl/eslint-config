@@ -365,9 +365,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@imccausl/eslint-config@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@imccausl/eslint-config@npm:3.0.0"
+"@imccausl/eslint-config@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@imccausl/eslint-config@npm:3.0.1"
   dependencies:
     globals: "npm:^15.13.0"
   peerDependencies:
@@ -403,7 +403,7 @@ __metadata:
       optional: true
     eslint-plugin-testing-library:
       optional: true
-  checksum: 10/1bad85486c95fb532acff40b5b97bd618dc886b364b57aca02c37c3d7557aba7c41bbc50fdef2e78beb05be4ce053bd74b51bab397af3f06099e34afae458e72
+  checksum: 10/09d885fa4cbd52051056ce011a66eecd82678bfa709f8f7f05ee355415a63b9f7ad216f95206e97dc453e66c5040040546ca4986c51be50b85cb3b8a12655e03
   languageName: node
   linkType: hard
 
@@ -414,7 +414,7 @@ __metadata:
     "@commitlint/cli": "npm:^18.6.0"
     "@commitlint/config-conventional": "npm:^18.6.0"
     "@eslint/js": "npm:^9.16.0"
-    "@imccausl/eslint-config": "npm:^3.0.0"
+    "@imccausl/eslint-config": "npm:^3.0.1"
     "@semantic-release/changelog": "npm:^6.0.3"
     "@semantic-release/git": "npm:^10.0.1"
     "@types/eslint": "npm:^8.56.2"
