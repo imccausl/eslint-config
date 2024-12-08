@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/imccausl/eslint-config/compare/v3.0.0...v3.0.1) (2024-12-08)
+
+
+### Bug Fixes
+
+* turn off no-named-as-default-member ([#99](https://github.com/imccausl/eslint-config/issues/99)) ([2f395cb](https://github.com/imccausl/eslint-config/commit/2f395cb4ed6eceb7939ac4532dd45a7f95d5c5f1))
+
 # [3.0.0](https://github.com/imccausl/eslint-config/compare/v2.0.0...v3.0.0) (2024-12-07)
 
 
