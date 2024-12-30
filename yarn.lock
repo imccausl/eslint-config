@@ -420,7 +420,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^8.17.0"
     "@typescript-eslint/parser": "npm:^8.17.0"
     "@typescript-eslint/utils": "npm:^8.17.0"
-    "@vitest/eslint-plugin": "npm:^1.1.14"
+    "@vitest/eslint-plugin": "npm:^1.1.21"
     "@yarnpkg/sdks": "npm:^3.2.0"
     eslint: "npm:^9.16.0"
     eslint-config-prettier: "npm:^9.1.0"
@@ -444,7 +444,7 @@ __metadata:
     "@tanstack/eslint-plugin-query": ^5.62.1
     "@typescript-eslint/eslint-plugin": ^8.0.0
     "@typescript-eslint/parser": ^8.0.0
-    "@vitest/eslint-plugin": ^1.1.14
+    "@vitest/eslint-plugin": ^1.1.21
     eslint: ^9
     eslint-config-prettier: ^9.1.0
     eslint-import-resolver-typescript: ^3.6.1
@@ -1381,9 +1381,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/eslint-plugin@npm:^1.1.14":
-  version: 1.1.14
-  resolution: "@vitest/eslint-plugin@npm:1.1.14"
+"@vitest/eslint-plugin@npm:^1.1.21":
+  version: 1.1.21
+  resolution: "@vitest/eslint-plugin@npm:1.1.21"
   peerDependencies:
     "@typescript-eslint/utils": ">= 8.0"
     eslint: ">= 8.57.0"
@@ -1394,7 +1394,7 @@ __metadata:
       optional: true
     vitest:
       optional: true
-  checksum: 10/4fc2b4fc184b127c44e6dccbd7cd477f16cb85c07d975c037ba4ed00fcc91a24d04efa9e12443df5580dca027f038cd0dd08fd413f37fb30ec467079f3757067
+  checksum: 10/8a19cc8f1adf080838d66d1c8b8b9a12d8a03fb60ac29eac0c0e1076e02910e9446c7783509d9f1ce7874284fb8bae5c8963114c7ecebaee34f62849977965f1
   languageName: node
   linkType: hard
 
