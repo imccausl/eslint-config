@@ -416,7 +416,7 @@ __metadata:
     "@semantic-release/changelog": "npm:^6.0.3"
     "@semantic-release/git": "npm:^10.0.1"
     "@types/eslint": "npm:^9.6.1"
-    "@types/node": "npm:^20.17.9"
+    "@types/node": "npm:^20.17.16"
     "@typescript-eslint/eslint-plugin": "npm:^8.17.0"
     "@typescript-eslint/parser": "npm:^8.17.0"
     "@typescript-eslint/utils": "npm:^8.17.0"
@@ -1214,12 +1214,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^20.17.9":
+"@types/node@npm:*":
   version: 20.17.9
   resolution: "@types/node@npm:20.17.9"
   dependencies:
     undici-types: "npm:~6.19.2"
   checksum: 10/11604a47adf383892394a59a339136b2746a71addf4a3b13f661d23b6e81e8a4f3b35e69dbcffc94698368e5ab5ec056a43a86c87eff00b1b8ea8cfcbfe641df
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.17.16":
+  version: 20.17.16
+  resolution: "@types/node@npm:20.17.16"
+  dependencies:
+    undici-types: "npm:~6.19.2"
+  checksum: 10/2a6f9f3d6e2640a6de5ae88ea690d8064eb421cca2989c84bc23eb1adf5e9f483c52e273722c05afba451054d3ca902df72bb8b6c33d1684404161bb410922f7
   languageName: node
   linkType: hard
 
