@@ -432,7 +432,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.37.2"
     eslint-plugin-react-hooks: "npm:^5.1.0"
     eslint-plugin-testing-library: "npm:^7.1.1"
-    globals: "npm:^15.13.0"
+    globals: "npm:^15.15.0"
     husky: "npm:^9.1.7"
     prettier: "npm:^3.4.2"
     semantic-release: "npm:^24.2.0"
@@ -3637,6 +3637,13 @@ __metadata:
   version: 15.13.0
   resolution: "globals@npm:15.13.0"
   checksum: 10/ba84d0612d516bcc1dabdd9ce66667956e1a87401fb53be6c379f8f6a04f8e6ce415b584801ae2689a90e788e89bb38adfafc854a8a50ae8e322bb4dd35a2105
+  languageName: node
+  linkType: hard
+
+"globals@npm:^15.15.0":
+  version: 15.15.0
+  resolution: "globals@npm:15.15.0"
+  checksum: 10/7f561c87b2fd381b27fc2db7df8a4ea7a9bb378667b8a7193e61fd2ca3a876479174e2a303a74345fbea6e1242e16db48915c1fd3bf35adcf4060a795b425e18
   languageName: node
   linkType: hard
 
