@@ -1,7 +1,8 @@
 import js from '@eslint/js'
 import importPlugin from 'eslint-plugin-import-x'
-import prettierRecommended from 'eslint-plugin-prettier/recommended'
 import ts from 'typescript-eslint'
+
+import { importModuleIfExists } from '../util/index.js'
 
 export const extendedConfigs = [
     js.configs.recommended,
@@ -11,5 +12,5 @@ export const extendedConfigs = [
 
 export const plugins = [
     importPlugin.flatConfigs.recommended,
-    prettierRecommended,
+    await importModuleIfExists('eslint-plugin-prettier/recommended'),
 ]

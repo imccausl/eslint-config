@@ -120,6 +120,9 @@
         "eslint-plugin-jsx-a11y": {
             "optional": true
         },
+        "eslint-plugin-prettier": {
+            "optional": true
+        },
         "eslint-plugin-react": {
             "optional": true
         },
