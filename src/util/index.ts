@@ -1,4 +1,4 @@
-const doesModuleExist = (moduleName: string) => {
+export const doesModuleExist = (moduleName: string) => {
     try {
         import.meta.resolve(moduleName)
         return true
