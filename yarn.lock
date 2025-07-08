@@ -370,26 +370,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@imccausl/eslint-config@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@imccausl/eslint-config@npm:3.0.1"
+"@imccausl/eslint-config@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "@imccausl/eslint-config@npm:3.1.1"
   dependencies:
-    globals: "npm:^15.13.0"
+    globals: "npm:^16.3.0"
   peerDependencies:
     "@eslint/js": ^9.16.0
     "@tanstack/eslint-plugin-query": ^5.62.1
     "@typescript-eslint/eslint-plugin": ^8.0.0
     "@typescript-eslint/parser": ^8.0.0
-    "@vitest/eslint-plugin": ^1.1.14
+    "@vitest/eslint-plugin": ^1.3.4
     eslint: ^9
-    eslint-config-prettier: ^9.1.0
+    eslint-config-prettier: ">=9.1.0"
     eslint-import-resolver-typescript: ^3.6.1
     eslint-plugin-import-x: ^4.5.0
     eslint-plugin-jsx-a11y: ^6.10.2
     eslint-plugin-prettier: ^5.1.3
     eslint-plugin-react: ^7.37.2
-    eslint-plugin-react-hooks: ^5.0.0
-    eslint-plugin-testing-library: ^7.0.0
+    eslint-plugin-react-hooks: ^5.1.0
+    eslint-plugin-testing-library: ^7.1.1
     prettier: ^3.2.5
     typescript: ">=5.3"
     typescript-eslint: ^8.17.0
@@ -402,13 +402,15 @@ __metadata:
       optional: true
     eslint-plugin-jsx-a11y:
       optional: true
+    eslint-plugin-prettier:
+      optional: true
     eslint-plugin-react:
       optional: true
     eslint-plugin-react-hooks:
       optional: true
     eslint-plugin-testing-library:
       optional: true
-  checksum: 10/09d885fa4cbd52051056ce011a66eecd82678bfa709f8f7f05ee355415a63b9f7ad216f95206e97dc453e66c5040040546ca4986c51be50b85cb3b8a12655e03
+  checksum: 10/9fc994b2acc5ce2ec1f49dcd20fc6c4a15d6f01ad9e985725750f485335c1aecb1d9a9f859477b2718bd86f59e503e7b60edbe9415857ce58c1f3a20f3023955
   languageName: node
   linkType: hard
 
@@ -419,7 +421,7 @@ __metadata:
     "@commitlint/cli": "npm:^19.8.1"
     "@commitlint/config-conventional": "npm:^19.8.1"
     "@eslint/js": "npm:^9.30.1"
-    "@imccausl/eslint-config": "npm:3.0.1"
+    "@imccausl/eslint-config": "npm:^3.1.1"
     "@semantic-release/changelog": "npm:^6.0.3"
     "@semantic-release/git": "npm:^10.0.1"
     "@types/eslint": "npm:^9.6.1"
@@ -3628,13 +3630,6 @@ __metadata:
   version: 14.0.0
   resolution: "globals@npm:14.0.0"
   checksum: 10/03939c8af95c6df5014b137cac83aa909090c3a3985caef06ee9a5a669790877af8698ab38007e4c0186873adc14c0b13764acc754b16a754c216cc56aa5f021
-  languageName: node
-  linkType: hard
-
-"globals@npm:^15.13.0":
-  version: 15.13.0
-  resolution: "globals@npm:15.13.0"
-  checksum: 10/ba84d0612d516bcc1dabdd9ce66667956e1a87401fb53be6c379f8f6a04f8e6ce415b584801ae2689a90e788e89bb38adfafc854a8a50ae8e322bb4dd35a2105
   languageName: node
   linkType: hard
 
