@@ -73,13 +73,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^19.6.0":
-  version: 19.6.0
-  resolution: "@commitlint/config-conventional@npm:19.6.0"
+"@commitlint/config-conventional@npm:^19.8.1":
+  version: 19.8.1
+  resolution: "@commitlint/config-conventional@npm:19.8.1"
   dependencies:
-    "@commitlint/types": "npm:^19.5.0"
+    "@commitlint/types": "npm:^19.8.1"
     conventional-changelog-conventionalcommits: "npm:^7.0.2"
-  checksum: 10/f96f6706502edad60d275f62a4aac06993a5fd47c343ad6286d48f173941e4e0848dab6642559099cc6714b513197338ac24da4b07debead5371326eef87bcb8
+  checksum: 10/aa61837baaf49e8ccf5eb8fa1bd78656abbea58edb73dacddc64c8915f1d28b27590005d66664c88b9a28a57e9a03ff11cf3b1d913af1ea4e86f3b66678ce630
   languageName: node
   linkType: hard
 
@@ -237,7 +237,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/types@npm:^19.5.0, @commitlint/types@npm:^19.8.1":
+"@commitlint/types@npm:^19.8.1":
   version: 19.8.1
   resolution: "@commitlint/types@npm:19.8.1"
   dependencies:
@@ -417,7 +417,7 @@ __metadata:
   resolution: "@imccausl/eslint-config@workspace:."
   dependencies:
     "@commitlint/cli": "npm:^19.8.1"
-    "@commitlint/config-conventional": "npm:^19.6.0"
+    "@commitlint/config-conventional": "npm:^19.8.1"
     "@eslint/js": "npm:^9.30.1"
     "@imccausl/eslint-config": "npm:3.0.1"
     "@semantic-release/changelog": "npm:^6.0.3"
