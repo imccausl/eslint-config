@@ -39,19 +39,19 @@
         "lint:fix": "yarn lint --fix",
         "typecheck": "tsc --noEmit"
     },
-    "main": "./lib/index.js",
+    "main": "./lib/src/index.js",
     "exports": {
         ".": {
-            "default": "./lib/index.js"
+            "default": "./lib/src/index.js"
         },
         "./base": {
-            "default": "./lib/base/index.js"
+            "default": "./lib/src/base/index.js"
         },
         "./react": {
-            "default": "./lib/react/index.js"
+            "default": "./lib/src/react/index.js"
         },
         "./test": {
-            "default": "./lib/test/index.js"
+            "default": "./lib/src/test/index.js"
         }
     },
     "dependencies": {
@@ -72,7 +72,7 @@
         "@vitest/eslint-plugin": "^1.1.14",
         "@yarnpkg/sdks": "^3.2.0",
         "eslint": "^9.16.0",
-        "eslint-config-prettier": "^9.1.0",
+        "eslint-config-prettier": "^10.1.5",
         "eslint-import-resolver-typescript": "^3.7.0",
         "eslint-plugin-import-x": "^4.5.0",
         "eslint-plugin-jest": "^28.9.0",
@@ -95,7 +95,7 @@
         "@typescript-eslint/parser": "^8.0.0",
         "@vitest/eslint-plugin": "^1.1.14",
         "eslint": "^9",
-        "eslint-config-prettier": "^9.1.0",
+        "eslint-config-prettier": ">=9.1.0",
         "eslint-import-resolver-typescript": "^3.6.1",
         "eslint-plugin-import-x": "^4.5.0",
         "eslint-plugin-jsx-a11y": "^6.10.2",
@@ -118,6 +118,9 @@
             "optional": true
         },
         "eslint-plugin-jsx-a11y": {
+            "optional": true
+        },
+        "eslint-plugin-prettier": {
             "optional": true
         },
         "eslint-plugin-react": {
