@@ -1,3 +1,10 @@
+## [3.1.4](https://github.com/imccausl/eslint-config/compare/v3.1.3...v3.1.4) (2025-07-08)
+
+
+### Bug Fixes
+
+* optional dependency requires optional rule ([#177](https://github.com/imccausl/eslint-config/issues/177)) ([d63640b](https://github.com/imccausl/eslint-config/commit/d63640bb7571701a584ba324fcad69ef7087d676))
+
 ## [3.1.3](https://github.com/imccausl/eslint-config/compare/v3.1.2...v3.1.3) (2025-07-08)
 
 
