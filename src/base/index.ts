@@ -9,7 +9,9 @@ import { rules } from './rules.js'
 import { settings } from './settings.js'
 
 const optionalDependencies = []
-const eslintPluginPrettier = await importModuleIfExists('eslint-plugin-prettier/recommended')
+const eslintPluginPrettier = await importModuleIfExists(
+    'eslint-plugin-prettier/recommended',
+)
 if (eslintPluginPrettier) {
     optionalDependencies.push(eslintPluginPrettier)
 }
