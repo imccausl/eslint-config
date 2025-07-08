@@ -1,16 +1,4 @@
 export const rules = {
-    'prettier/prettier': [
-        'error',
-        {
-            printWidth: 80,
-            tabWidth: 4,
-            semi: false,
-            trailingComma: 'all',
-            singleQuote: true,
-            allowParens: 'always',
-        },
-    ],
-
     /** Errors */
     'no-var': 'error',
     'prefer-const': 'error',
