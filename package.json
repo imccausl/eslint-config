@@ -13,19 +13,19 @@
     "publishConfig": {
         "registry": "https://registry.npmjs.org/",
         "tag": "latest",
-        "main": "./lib/index.js",
+        "main": "./lib/src/index.js",
         "exports": {
             ".": {
-                "default": "./lib/index.js"
+                "default": "./lib/src/index.js"
             },
             "./base": {
-                "default": "./lib/base/index.js"
+                "default": "./lib/src/base/index.js"
             },
             "./react": {
-                "default": "./lib/react/index.js"
+                "default": "./lib/src/react/index.js"
             },
             "./test": {
-                "default": "./lib/test/index.js"
+                "default": "./lib/src/test/index.js"
             }
         }
     },
