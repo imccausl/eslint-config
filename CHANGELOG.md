@@ -1,3 +1,17 @@
+## [3.1.3](https://github.com/imccausl/eslint-config/compare/v3.1.2...v3.1.3) (2025-07-08)
+
+
+### Bug Fixes
+
+* optional dependency causes crash when not available ([#175](https://github.com/imccausl/eslint-config/issues/175)) ([f245528](https://github.com/imccausl/eslint-config/commit/f245528b218bf75e2250d7a78732d2d6b7d5298c))
+
+## [3.1.2](https://github.com/imccausl/eslint-config/compare/v3.1.1...v3.1.2) (2025-07-08)
+
+
+### Bug Fixes
+
+* release 3.1.2 including dependency updates ([#172](https://github.com/imccausl/eslint-config/issues/172)) ([6423e0e](https://github.com/imccausl/eslint-config/commit/6423e0ed2c5f89c2adc02e63cafe8a661b79d303))
+
 ## [3.1.1](https://github.com/imccausl/eslint-config/compare/v3.1.0...v3.1.1) (2025-07-08)
 
 
