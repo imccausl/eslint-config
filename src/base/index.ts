@@ -8,12 +8,18 @@ import { languageOptions } from './languageOptions.js'
 import { rules } from './rules.js'
 import { settings } from './settings.js'
 
+const optionalDependencies = []
+const eslintPluginPrettier = await importModuleIfExists('eslint-plugin-prettier/recommended')
+if (eslintPluginPrettier) {
+    optionalDependencies.push(eslintPluginPrettier)
+}
+
 export default [
     js.configs.recommended,
     ...ts.configs.recommended,
     ...ts.configs.stylistic,
     importPlugin.flatConfigs.recommended,
-    await importModuleIfExists('eslint-plugin-prettier/recommended'),
+    ...optionalDependencies,
     {
         files: [
             '**/*.ts',
