@@ -363,9 +363,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@imccausl/eslint-config@npm:^3.0.1":
-  version: 3.1.0
-  resolution: "@imccausl/eslint-config@npm:3.1.0"
+"@imccausl/eslint-config@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@imccausl/eslint-config@npm:3.0.1"
   dependencies:
     globals: "npm:^15.13.0"
   peerDependencies:
@@ -375,14 +375,14 @@ __metadata:
     "@typescript-eslint/parser": ^8.0.0
     "@vitest/eslint-plugin": ^1.1.14
     eslint: ^9
-    eslint-config-prettier: ">=9.1.0"
+    eslint-config-prettier: ^9.1.0
     eslint-import-resolver-typescript: ^3.6.1
     eslint-plugin-import-x: ^4.5.0
     eslint-plugin-jsx-a11y: ^6.10.2
     eslint-plugin-prettier: ^5.1.3
     eslint-plugin-react: ^7.37.2
-    eslint-plugin-react-hooks: ^5.1.0
-    eslint-plugin-testing-library: ^7.1.1
+    eslint-plugin-react-hooks: ^5.0.0
+    eslint-plugin-testing-library: ^7.0.0
     prettier: ^3.2.5
     typescript: ">=5.3"
     typescript-eslint: ^8.17.0
@@ -395,15 +395,13 @@ __metadata:
       optional: true
     eslint-plugin-jsx-a11y:
       optional: true
-    eslint-plugin-prettier:
-      optional: true
     eslint-plugin-react:
       optional: true
     eslint-plugin-react-hooks:
       optional: true
     eslint-plugin-testing-library:
       optional: true
-  checksum: 10/30453e91bd501f0607c7bc9a115e5189212037bbc2acad7de70025f9efece1f6d308af7f229eef61aea2a36dd2c2b9f812f76b02f42f97c2ccb60ea7d9223771
+  checksum: 10/09d885fa4cbd52051056ce011a66eecd82678bfa709f8f7f05ee355415a63b9f7ad216f95206e97dc453e66c5040040546ca4986c51be50b85cb3b8a12655e03
   languageName: node
   linkType: hard
 
@@ -414,7 +412,7 @@ __metadata:
     "@commitlint/cli": "npm:^19.8.1"
     "@commitlint/config-conventional": "npm:^19.6.0"
     "@eslint/js": "npm:^9.16.0"
-    "@imccausl/eslint-config": "npm:^3.0.1"
+    "@imccausl/eslint-config": "npm:3.0.1"
     "@semantic-release/changelog": "npm:^6.0.3"
     "@semantic-release/git": "npm:^10.0.1"
     "@types/eslint": "npm:^9.6.1"
