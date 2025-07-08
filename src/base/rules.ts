@@ -91,16 +91,16 @@ const rules: Record<string, any> = {
 
 if (doesModuleExist('eslint-plugin-prettier')) {
     rules['prettier/prettier'] = [
-      'error',
-      {
-          printWidth: 80,
-          tabWidth: 4,
-          semi: false,
-          trailingComma: 'all',
-          singleQuote: true,
-          allowParens: 'always',
-      },
-  ],
+        'error',
+        {
+            printWidth: 80,
+            tabWidth: 4,
+            semi: false,
+            trailingComma: 'all',
+            singleQuote: true,
+            allowParens: 'always',
+        },
+    ]
 }
 
 export { rules }
