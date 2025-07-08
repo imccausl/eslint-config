@@ -61,7 +61,7 @@
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
         "@eslint/js": "^9.30.1",
-        "@imccausl/eslint-config": "^3.1.3",
+        "@imccausl/eslint-config": "^3.1.4",
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
         "@types/eslint": "^9.6.1",
