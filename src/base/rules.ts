@@ -1,4 +1,6 @@
-export const rules = {
+import { doesModuleExist } from '../util/index.js'
+
+const rules: Record<string, any> = {
     /** Errors */
     'no-var': 'error',
     'prefer-const': 'error',
@@ -86,3 +88,19 @@ export const rules = {
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
 }
+
+if (doesModuleExist('eslint-plugin-prettier')) {
+    rules['prettier/prettier'] = [
+        'error',
+        {
+            printWidth: 80,
+            tabWidth: 4,
+            semi: false,
+            trailingComma: 'all',
+            singleQuote: true,
+            allowParens: 'always',
+        },
+    ]
+}
+
+export { rules }
