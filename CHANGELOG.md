@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/imccausl/eslint-config/compare/v3.0.1...v3.1.0) (2025-07-08)
+
+
+### Features
+
+* make eslint-plugin-prettier optional ([#162](https://github.com/imccausl/eslint-config/issues/162)) ([bbe0112](https://github.com/imccausl/eslint-config/commit/bbe011209b26c0fd51d9d16f6474a8bb1a236c33))
+
 ## [3.0.1](https://github.com/imccausl/eslint-config/compare/v3.0.0...v3.0.1) (2024-12-08)
 
 
