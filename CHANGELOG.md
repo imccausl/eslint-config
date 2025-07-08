@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/imccausl/eslint-config/compare/v3.1.0...v3.1.1) (2025-07-08)
+
+
+### Bug Fixes
+
+* incorrect paths in package.json ([#171](https://github.com/imccausl/eslint-config/issues/171)) ([052f063](https://github.com/imccausl/eslint-config/commit/052f063e1c76948b83c4ef2918254ad1e4fac1ce))
+
 # [3.1.0](https://github.com/imccausl/eslint-config/compare/v3.0.1...v3.1.0) (2025-07-08)
 
 
