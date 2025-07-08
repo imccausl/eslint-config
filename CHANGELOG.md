@@ -1,3 +1,21 @@
+# [4.0.0](https://github.com/imccausl/eslint-config/compare/v3.1.4...v4.0.0) (2025-07-08)
+
+
+### Features
+
+* remove prettier and eslint-plugin-prettier ([#174](https://github.com/imccausl/eslint-config/issues/174)) ([1f7ae0a](https://github.com/imccausl/eslint-config/commit/1f7ae0a215cb0a7740559b058343afd982713bdf))
+
+
+### BREAKING CHANGES
+
+* This update removes support for eslint-plugin-prettier. Using this plugin is not recommended by prettier, and often causes issues with yarn modern. As a result, it has been removed from this major version update. Configure prettier seprately instead.
+
+* chore: add prettier config for project
+
+* chore: update eslint-config
+
+* chore: update eslint-config
+
 ## [3.1.4](https://github.com/imccausl/eslint-config/compare/v3.1.3...v3.1.4) (2025-07-08)
 
 
