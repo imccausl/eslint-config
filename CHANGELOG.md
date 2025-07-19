@@ -1,3 +1,10 @@
+## [4.0.2](https://github.com/imccausl/eslint-config/compare/v4.0.1...v4.0.2) (2025-07-19)
+
+
+### Bug Fixes
+
+* add paths to type declarations in package.json ([#186](https://github.com/imccausl/eslint-config/issues/186)) ([e53a540](https://github.com/imccausl/eslint-config/commit/e53a5401c33111ee225650971e7abdea337dcfbd))
+
 ## [4.0.1](https://github.com/imccausl/eslint-config/compare/v4.0.0...v4.0.1) (2025-07-19)
 
 
