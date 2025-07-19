@@ -1,6 +1,6 @@
 import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript'
 
-import type { TsResolverOptions } from 'eslint-plugin-import-x/types.js'
+import type { TsResolverOptions } from 'eslint-plugin-import-x'
 
 export const settings = (
     typescriptResolverConfig: TsResolverOptions | null = {
