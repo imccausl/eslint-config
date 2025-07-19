@@ -14,22 +14,23 @@
         "registry": "https://registry.npmjs.org/",
         "tag": "latest",
         "main": "./lib/index.js",
+        "types": "./lib/index.d.ts",
         "exports": {
             ".": {
-                "default": "./library/index.js",
-                "types": "./library/index.d.ts"
+                "default": "./lib/index.js",
+                "types": "./lib/index.d.ts"
             },
             "./base": {
-                "default": "./library/base/index.js",
-                "types": "./library/base/index.d.ts"
+                "default": "./lib/base/index.js",
+                "types": "./lib/base/index.d.ts"
             },
             "./react": {
-                "default": "./library/react/index.js",
-                "types": "./library/react/index.d.ts"
+                "default": "./lib/react/index.js",
+                "types": "./lib/react/index.d.ts"
             },
             "./test": {
-                "default": "./library/test/index.js",
-                "types": "./library/test/index.d.ts"
+                "default": "./lib/test/index.js",
+                "types": "./lib/test/index.d.ts"
             }
         }
     },
