@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/imccausl/eslint-config/compare/v4.0.0...v4.0.1) (2025-07-19)
+
+
+### Bug Fixes
+
+* publish declarations ([#185](https://github.com/imccausl/eslint-config/issues/185)) ([9127f70](https://github.com/imccausl/eslint-config/commit/9127f70242629bede45f0970b9525c5483b6c387))
+
 # [4.0.0](https://github.com/imccausl/eslint-config/compare/v3.1.4...v4.0.0) (2025-07-08)
 
 
