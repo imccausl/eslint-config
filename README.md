@@ -17,7 +17,6 @@ yarn add -D \
   eslint \ 
   prettier \
   eslint-config-prettier \
-  eslint-plugin-prettier \
   eslint-plugin-import-x \ 
   eslint-import-resolver-typescript \
   @typescript-eslint/eslint-plugin \

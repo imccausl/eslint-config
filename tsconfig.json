@@ -11,7 +11,9 @@
         "noEmit": true,
         "emitDeclarationOnly": false,
         "declaration": false,
-        "lib": ["ESNext"],
+        "lib": [
+            "ESNext"
+        ],
         "rootDir": "."
     },
     "include": [
@@ -20,5 +22,8 @@
         "commitlint.config.cjs",
         ".prettierrc.js"
     ],
-    "exclude": ["node_modules", "lib"]
+    "exclude": [
+        "node_modules",
+        "lib"
+    ]
 }
