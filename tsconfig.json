@@ -1,21 +1,7 @@
 {
-    "compilerOptions": {
-        "target": "ESNext",
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
-        "outDir": "lib",
-        "strict": true,
-        "esModuleInterop": true,
-        "allowJs": true,
-        "skipLibCheck": true,
-        "noEmit": true,
-        "emitDeclarationOnly": false,
-        "declaration": false,
-        "lib": [
-            "ESNext"
-        ],
-        "rootDir": "."
-    },
+    "extends": [
+        "@imccausl/dev/tsconfig.json"
+    ],
     "include": [
         "src",
         "eslint.config.js",

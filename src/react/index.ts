@@ -12,7 +12,7 @@ const config = [
         rules: {},
         settings: {
             react: {
-                version: 'detect',
+                version: "detect",
             },
         },
     },

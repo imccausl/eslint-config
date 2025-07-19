@@ -1,4 +1,4 @@
-import eslintConfig from '@imccausl/eslint-config'
+import eslintConfig from '@imccausl/dev/eslint-config/base'
 
 export default [
     {
