@@ -13,19 +13,23 @@
     "publishConfig": {
         "registry": "https://registry.npmjs.org/",
         "tag": "latest",
-        "main": "./lib/src/index.js",
+        "main": "./lib/index.js",
         "exports": {
             ".": {
-                "default": "./lib/src/index.js"
+                "default": "./library/index.js",
+                "types": "./library/index.d.ts"
             },
             "./base": {
-                "default": "./lib/src/base/index.js"
+                "default": "./library/base/index.js",
+                "types": "./library/base/index.d.ts"
             },
             "./react": {
-                "default": "./lib/src/react/index.js"
+                "default": "./library/react/index.js",
+                "types": "./library/react/index.d.ts"
             },
             "./test": {
-                "default": "./lib/src/test/index.js"
+                "default": "./library/test/index.js",
+                "types": "./library/test/index.d.ts"
             }
         }
     },
@@ -39,19 +43,20 @@
         "lint:fix": "yarn lint --fix",
         "typecheck": "tsc --noEmit"
     },
-    "main": "./lib/src/index.js",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
     "exports": {
         ".": {
-            "default": "./lib/src/index.js"
+            "default": "./src/index.ts"
         },
         "./base": {
-            "default": "./lib/src/base/index.js"
+            "default": "./src/base/index.ts"
         },
         "./react": {
-            "default": "./lib/src/react/index.js"
+            "default": "./src/react/index.ts"
         },
         "./test": {
-            "default": "./lib/src/test/index.js"
+            "default": "./src/test/index.ts"
         }
     },
     "dependencies": {

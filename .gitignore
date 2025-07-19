@@ -15,3 +15,4 @@
 # artifacts
 dist
 lib
+*.tsbuildinfo
