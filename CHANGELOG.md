@@ -1,3 +1,10 @@
+## [4.0.3](https://github.com/imccausl/eslint-config/compare/v4.0.2...v4.0.3) (2025-07-19)
+
+
+### Bug Fixes
+
+* fix typos in types paths ([#188](https://github.com/imccausl/eslint-config/issues/188)) ([0a0f8db](https://github.com/imccausl/eslint-config/commit/0a0f8db34696d35bc49acff964d6ecc5634ca236))
+
 ## [4.0.2](https://github.com/imccausl/eslint-config/compare/v4.0.1...v4.0.2) (2025-07-19)
 
 
