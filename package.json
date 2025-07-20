@@ -42,6 +42,7 @@
     "publish": "semantic-release",
     "lint": "yarn dev lint",
     "lint:fix": "yarn lint --fix",
+    "format": "yarn dev format",
     "typecheck": "tsc --noEmit"
   },
   "main": "./lib/index.js",
