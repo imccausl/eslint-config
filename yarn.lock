@@ -399,9 +399,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@imccausl/dev@npm:^1.2.2":
-  version: 1.2.2
-  resolution: "@imccausl/dev@npm:1.2.2"
+"@imccausl/dev@npm:^1.2.4":
+  version: 1.2.4
+  resolution: "@imccausl/dev@npm:1.2.4"
   dependencies:
     "@eslint/js": "npm:^9.30.1"
     "@imccausl/eslint-config": "npm:^4.0.3"
@@ -413,12 +413,14 @@ __metadata:
     eslint-import-resolver-typescript: "npm:^3.6.1"
     eslint-plugin-import-x: "npm:^4.16.1"
     jiti: "npm:^2.4.2"
+    prettier: "npm:^3.6.2"
     typescript-eslint: "npm:^8.36.0"
   peerDependencies:
     eslint: ^9.0.0
+    prettier: ^3.6.2
   bin:
     dev: ./lib/index.js
-  checksum: 10/79ecaef0cc68a98e72bc4e009dae0d7465742455ac36dc6bc2e7149ffb9b1955527052645784c92f7ea92c57d2375c64de1cf94733359d5ddd47a7e6fc3ece96
+  checksum: 10/e34bcb7c1eecab530d55e02b154d8cc8386472e6d8672a761451467148b241af2f23c2e77522f40103c240ca97ab5e9f21141b999873ad8f0d78b3c70e52dc7c
   languageName: node
   linkType: hard
 
@@ -469,7 +471,7 @@ __metadata:
     "@commitlint/cli": "npm:^19.8.1"
     "@commitlint/config-conventional": "npm:^19.8.1"
     "@eslint/js": "npm:^9.30.1"
-    "@imccausl/dev": "npm:^1.2.2"
+    "@imccausl/dev": "npm:^1.2.4"
     "@semantic-release/changelog": "npm:^6.0.3"
     "@semantic-release/git": "npm:^10.0.1"
     "@types/eslint": "npm:^9.6.1"

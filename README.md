@@ -14,10 +14,10 @@ To use the base config, install the config as well as it's dependencies:
 ```bash
 yarn add -D \
   @imccausl/eslint-config \
-  eslint \ 
+  eslint \
   prettier \
   eslint-config-prettier \
-  eslint-plugin-import-x \ 
+  eslint-plugin-import-x \
   eslint-import-resolver-typescript \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser
@@ -49,7 +49,7 @@ Version 3+ uses the eslint flat config. You can set it up like this:
 import eslintConfig from '@imccausl/eslint-config'
 
 export default [
-  ...eslintConfig
+  ...eslintConfig,
   // other configs
 ]
 ```
@@ -63,8 +63,5 @@ There are exports for base, react and testing which can be imported separately:
 ```js
 import reactEslintConfig from '@imccausl/eslint-config/react'
 import testingEslintConfig from '@imcccausl/eslint-config/testing'
-export default [
-  ...reactEslintConfig,
-  ...testingEslintConfig,
-]
+export default [...reactEslintConfig, ...testingEslintConfig]
 ```
