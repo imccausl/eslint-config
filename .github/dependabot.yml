@@ -8,46 +8,46 @@ updates:
   - package-ecosystem: npm
     commit-message:
       prefix: deps
-    directory: "/" # Location of package manifests
+    directory: '/' # Location of package manifests
     schedule:
       interval: weekly
     open-pull-requests-limit: 10
     ignore:
-      - dependency-name: "@types/node"
+      - dependency-name: '@types/node'
         versions:
-          - ">= 22" # until 22 is lts
+          - '>= 22' # until 22 is lts
 
     groups:
       semantic-release:
         applies-to: version-updates
         patterns:
-          - "semantic-release*"
+          - 'semantic-release*'
 
       eslint:
         applies-to: version-updates
         patterns:
-          - "eslint*"
-          - "prettier*"
-          - "stylelint*"
-          - "postcss*"
-          - "@typescript-eslint/*"
-          - "lint-staged"
-          - "@types/eslint"
+          - 'eslint*'
+          - 'prettier*'
+          - 'stylelint*'
+          - 'postcss*'
+          - '@typescript-eslint/*'
+          - 'lint-staged'
+          - '@types/eslint'
 
       typescript:
         applies-to: version-updates
         patterns:
-          - "@types/*"
-          - "typescript"
+          - '@types/*'
+          - 'typescript'
         exclude-patterns:
-          - "@types/react*"
-          - "@types/node"
-          - "@types/eslint"
+          - '@types/react*'
+          - '@types/node'
+          - '@types/eslint'
 
   - package-ecosystem: github-actions
     commit-message:
-      prefix: "ci"
-    directory: "/"
+      prefix: 'ci'
+    directory: '/'
     schedule:
       interval: weekly
     open-pull-requests-limit: 5

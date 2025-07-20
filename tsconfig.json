@@ -1,15 +1,10 @@
 {
-    "extends": [
-        "@imccausl/dev/tsconfig.json"
-    ],
-    "include": [
-        "src",
-        "eslint.config.js",
-        "commitlint.config.cjs",
-        ".prettierrc.js"
-    ],
-    "exclude": [
-        "node_modules",
-        "lib"
-    ]
+  "extends": ["@imccausl/dev/tsconfig.json"],
+  "include": [
+    "src",
+    "eslint.config.js",
+    "commitlint.config.cjs",
+    ".prettierrc.cjs"
+  ],
+  "exclude": ["node_modules", "lib"]
 }
