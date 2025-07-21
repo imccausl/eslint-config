@@ -1,9 +1,10 @@
 {
-  "extends": ["@imccausl/dev/tsconfig.json"],
+  "extends": ".yarn/unplugged/@imccausl-dev-virtual-2bdc621280/node_modules/@imccausl/dev/lib/types/tsconfig.default.json",
   "include": [
     "src",
     "eslint.config.js",
     "commitlint.config.cjs",
+    "tsdown.config.ts",
     ".prettierrc.cjs"
   ],
   "exclude": ["node_modules", "lib"]
