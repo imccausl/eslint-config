@@ -1,3 +1,10 @@
+## [4.0.4](https://github.com/imccausl/eslint-config/compare/v4.0.3...v4.0.4) (2025-07-22)
+
+
+### Bug Fixes
+
+* use build script from dev-scripts ([#193](https://github.com/imccausl/eslint-config/issues/193)) ([88ab254](https://github.com/imccausl/eslint-config/commit/88ab254bac5194dfc17ff7c5bbfe4f8dc7a19002))
+
 ## [4.0.3](https://github.com/imccausl/eslint-config/compare/v4.0.2...v4.0.3) (2025-07-19)
 
 ### Bug Fixes
