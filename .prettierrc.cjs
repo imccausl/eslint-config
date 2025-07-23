@@ -4,6 +4,7 @@ const prettierConfig = require('@imccausl/dev/prettier-config')
  * @see https://prettier.io/docs/configuration
  * @type {import("prettier").Config}
  */
+
 const config = {
   ...prettierConfig,
 }

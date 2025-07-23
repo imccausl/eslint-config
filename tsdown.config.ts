@@ -9,4 +9,3 @@ export default defineMergedConfig({
   ],
   unbundle: true,
 })
-
