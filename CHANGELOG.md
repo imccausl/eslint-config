@@ -1,3 +1,10 @@
+## [4.0.5](https://github.com/imccausl/eslint-config/compare/v4.0.4...v4.0.5) (2025-10-31)
+
+
+### Bug Fixes
+
+* release with updated deps ([37dcadb](https://github.com/imccausl/eslint-config/commit/37dcadb2b55d7ffe5553544a9c6315f430a92a2d))
+
 ## [4.0.4](https://github.com/imccausl/eslint-config/compare/v4.0.3...v4.0.4) (2025-07-22)
 
 
