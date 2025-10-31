@@ -1,3 +1,10 @@
+## [4.0.6](https://github.com/imccausl/eslint-config/compare/v4.0.5...v4.0.6) (2025-10-31)
+
+
+### Bug Fixes
+
+* raise eslint-import-resolver-typescript peer dep version ([e647c27](https://github.com/imccausl/eslint-config/commit/e647c2723ea26d4a9e302168a5ce9d164dd4581c))
+
 ## [4.0.5](https://github.com/imccausl/eslint-config/compare/v4.0.4...v4.0.5) (2025-10-31)
 
 
