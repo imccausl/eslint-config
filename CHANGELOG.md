@@ -1,3 +1,10 @@
+## [4.0.8](https://github.com/imccausl/eslint-config/compare/v4.0.7...v4.0.8) (2025-11-02)
+
+
+### Bug Fixes
+
+* test using OIDC to publish ([#248](https://github.com/imccausl/eslint-config/issues/248)) ([c3d6c3f](https://github.com/imccausl/eslint-config/commit/c3d6c3f73951c14ecbd2f6825bc52c5ff8d7eda7))
+
 ## [4.0.7](https://github.com/imccausl/eslint-config/compare/v4.0.6...v4.0.7) (2025-11-02)
 
 
