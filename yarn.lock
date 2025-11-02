@@ -916,7 +916,7 @@ __metadata:
     "@eslint/js": "npm:^9.38.0"
     "@imccausl/dev": "npm:^2.1.1"
     "@types/eslint": "npm:^9.6.1"
-    "@types/node": "npm:^20.19.23"
+    "@types/node": "npm:^20.19.24"
     "@typescript-eslint/eslint-plugin": "npm:^8.46.2"
     "@typescript-eslint/parser": "npm:^8.46.2"
     "@typescript-eslint/types": "npm:^8.46.2"
@@ -2185,12 +2185,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^20.19.23":
+"@types/node@npm:*":
   version: 20.19.23
   resolution: "@types/node@npm:20.19.23"
   dependencies:
     undici-types: "npm:~6.21.0"
   checksum: 10/35ca928381fab74abe2938a5ef00e3e9721ed0475e370a2c5c49877ed88858690d8d5464b6cb6bbe717497482e9087d1f58b6140dbcdd2742750fbe39e271489
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.19.24":
+  version: 20.19.24
+  resolution: "@types/node@npm:20.19.24"
+  dependencies:
+    undici-types: "npm:~6.21.0"
+  checksum: 10/d3e2f47b1417d5dc8d8f425d2efecaa1fd8fe201b4e8de3e6fa8a54841487e48d81d9f24caaf329d316248b3eff8852f82faf16c177ba3606b09442e5094fc7e
   languageName: node
   linkType: hard
 
