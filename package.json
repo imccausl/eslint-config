@@ -1,6 +1,6 @@
 {
     "name": "@imccausl/eslint-config",
-    "version": "4.0.6",
+    "version": "4.0.8",
     "packageManager": "yarn@4.10.3",
     "files": [
         "lib"
@@ -60,11 +60,11 @@
         }
     },
     "dependencies": {
-        "globals": "^16.4.0"
+        "globals": "^16.5.0"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.8.1",
-        "@commitlint/config-conventional": "^19.8.1",
+        "@commitlint/config-conventional": "^20.0.0",
         "@eslint/js": "^9.38.0",
         "@imccausl/dev": "^2.1.1",
         "@types/eslint": "^9.6.1",
