@@ -35,9 +35,9 @@
         }
     },
     "scripts": {
-        "build": "yarn dev build",
+        "build": "yarn dev lib",
         "prepare": "husky",
-        "publish": "semantic-release",
+        "publish": "yarn dev release",
         "lint": "yarn dev lint",
         "lint:fix": "yarn lint --fix",
         "format": "yarn dev format",
@@ -66,9 +66,7 @@
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
         "@eslint/js": "^9.38.0",
-        "@imccausl/dev": "^1.3.0",
-        "@semantic-release/changelog": "^6.0.3",
-        "@semantic-release/git": "^10.0.1",
+        "@imccausl/dev": "^2.1.1",
         "@types/eslint": "^9.6.1",
         "@types/node": "^20.19.23",
         "@typescript-eslint/eslint-plugin": "^8.46.2",
@@ -88,8 +86,6 @@
         "eslint-plugin-testing-library": "^7.13.3",
         "husky": "^9.1.7",
         "prettier": "^3.6.2",
-        "semantic-release": "^24.2.7",
-        "semantic-release-yarn": "^3.0.2",
         "typescript": "^5.9.2",
         "typescript-eslint": "^8.46.2"
     },
@@ -134,7 +130,7 @@
         }
     },
     "dependenciesMeta": {
-        "@imccausl/dev@1.3.0": {
+        "@imccausl/dev@2.1.1": {
             "unplugged": true
         }
     }
