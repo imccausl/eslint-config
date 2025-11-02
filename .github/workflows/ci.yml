@@ -6,21 +6,22 @@ on:
   pull_request:
   workflow_dispatch:
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  id-token: write
+
 jobs:
   test-and-build:
     name: Test and Build
     uses: imccausl/eslint-config/.github/workflows/test-and-build.yml@main
-
+    secrets: inherit
   publish:
     name: Publish
     if: |
       github.event_name == 'push' &&
       github.ref_name == github.event.repository.default_branch
     needs: test-and-build
-    permissions:
-      contents: write
-      issues: write
-      pull-requests: write
-      id-token: write
     uses: imccausl/eslint-config/.github/workflows/publish.yml@main
     secrets: inherit
