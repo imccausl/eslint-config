@@ -63,7 +63,7 @@
         "globals": "^16.5.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.8.1",
+        "@commitlint/cli": "^20.1.0",
         "@commitlint/config-conventional": "^20.0.0",
         "@eslint/js": "^9.38.0",
         "@imccausl/dev": "^2.1.1",
