@@ -128,10 +128,5 @@
         "eslint-plugin-testing-library": {
             "optional": true
         }
-    },
-    "dependenciesMeta": {
-        "@imccausl/dev@2.1.1": {
-            "unplugged": true
-        }
     }
 }
