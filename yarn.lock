@@ -733,7 +733,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.39.1, @eslint/js@npm:^9.38.0, @eslint/js@npm:^9.39.0":
+"@eslint/js@npm:9.39.1, @eslint/js@npm:^9.39.0":
   version: 9.39.1
   resolution: "@eslint/js@npm:9.39.1"
   checksum: 10/b10b9b953212c0f3ffca475159bbe519e9e98847200c7432d1637d444fddcd7b712d2b7710a7dc20510f9cfbe8db330039b2aad09cb55d9545b116d940dbeed2
@@ -802,12 +802,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@imccausl/dev@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "@imccausl/dev@npm:2.1.1"
+"@imccausl/dev@npm:^2.1.3":
+  version: 2.1.3
+  resolution: "@imccausl/dev@npm:2.1.3"
   dependencies:
-    "@eslint/js": "npm:^9.38.0"
-    "@imccausl/eslint-config": "npm:^4.0.6"
+    "@eslint/js": "npm:^9.39.0"
+    "@imccausl/eslint-config": "npm:^4.0.9"
     "@imccausl/semantic-release-yarn": "npm:^4.0.12"
     "@semantic-release/changelog": "npm:^6.0.3"
     "@semantic-release/commit-analyzer": "npm:^13.0.1"
@@ -816,12 +816,12 @@ __metadata:
     "@semantic-release/npm": "npm:^13.1.1"
     "@semantic-release/release-notes-generator": "npm:^14.1.0"
     "@tanstack/eslint-plugin-query": "npm:^5.91.2"
-    "@typescript-eslint/eslint-plugin": "npm:^8.36.0"
-    "@typescript-eslint/parser": "npm:^8.36.0"
-    "@typescript-eslint/types": "npm:^8.37.0"
+    "@typescript-eslint/eslint-plugin": "npm:^8.46.3"
+    "@typescript-eslint/parser": "npm:^8.46.3"
+    "@typescript-eslint/types": "npm:^8.46.3"
     "@vitejs/plugin-react": "npm:^5.1.0"
-    "@vitest/eslint-plugin": "npm:^1.3.26"
-    eslint: "npm:^9.38.0"
+    "@vitest/eslint-plugin": "npm:^1.4.0"
+    eslint: "npm:^9.39.1"
     eslint-config-prettier: "npm:^10.1.8"
     eslint-import-resolver-typescript: "npm:^4.4.4"
     eslint-plugin-import-x: "npm:^4.16.1"
@@ -832,7 +832,7 @@ __metadata:
     jiti: "npm:^2.4.2"
     prettier: "npm:^3.6.2"
     semantic-release: "npm:^25.0.1"
-    tsdown: "npm:^0.15.11"
+    tsdown: "npm:^0.15.12"
     typescript-eslint: "npm:^8.46.2"
     vite: "npm:^7.1.12"
     yaml: "npm:^2.8.1"
@@ -841,17 +841,17 @@ __metadata:
     prettier: ^3.6.2
   bin:
     dev: ./lib/index.js
-  checksum: 10/3c018683415e0e566eb109f12a975fbaa635ebe9d06a613d3ec76fe9fb568d5c60719e038a020412338a56def2a565f6b9972dbfa6f73e372929ad46f23f38df
+  checksum: 10/bed1420aac582be8c32be2810c5b2e056c74b7c66c7658f31ef84e3ce2da3c0f3b3e45ba1029b37d1cfb73fd9ead84eb5cb21e2fb280278ae1159eff6cc2c4af
   languageName: node
   linkType: hard
 
-"@imccausl/eslint-config@npm:^4.0.6":
-  version: 4.0.6
-  resolution: "@imccausl/eslint-config@npm:4.0.6"
+"@imccausl/eslint-config@npm:^4.0.9":
+  version: 4.0.9
+  resolution: "@imccausl/eslint-config@npm:4.0.9"
   dependencies:
-    globals: "npm:^16.4.0"
+    globals: "npm:^16.5.0"
   peerDependencies:
-    "@eslint/js": ^9.38.0
+    "@eslint/js": ^9.39.0
     "@tanstack/eslint-plugin-query": ^5.62.1
     "@typescript-eslint/eslint-plugin": ^8.0.0
     "@typescript-eslint/parser": ^8.0.0
@@ -867,7 +867,7 @@ __metadata:
     typescript: ">=5.3"
     typescript-eslint: ^8.0.0
   dependenciesMeta:
-    "@imccausl/dev@1.3.0":
+    "@imccausl/dev@2.1.1":
       unplugged: true
   peerDependenciesMeta:
     "@tanstack/eslint-plugin-query":
@@ -884,7 +884,7 @@ __metadata:
       optional: true
     eslint-plugin-testing-library:
       optional: true
-  checksum: 10/f1712af4badd8d6fa58645a8acbead975525acfd79f2be88f13ab9b7dd2549e3c2d22ef8c26b15bd75f87d61a564c1cab58291430b4fe1efd48084dad681a49b
+  checksum: 10/7fc1671f5bae78556c6d97acc70187d0c62e45ea7cd9c518e45a980841674f303f3d04cf34521f65e8647d0233e235462fdc867fcc6a036524b68aeb7efc66e4
   languageName: node
   linkType: hard
 
@@ -895,7 +895,7 @@ __metadata:
     "@commitlint/cli": "npm:^20.1.0"
     "@commitlint/config-conventional": "npm:^20.0.0"
     "@eslint/js": "npm:^9.39.0"
-    "@imccausl/dev": "npm:^2.1.1"
+    "@imccausl/dev": "npm:^2.1.3"
     "@types/eslint": "npm:^9.6.1"
     "@types/node": "npm:^22.18.13"
     "@typescript-eslint/eslint-plugin": "npm:^8.46.3"
@@ -2202,7 +2202,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:8.46.3, @typescript-eslint/eslint-plugin@npm:^8.36.0, @typescript-eslint/eslint-plugin@npm:^8.46.3":
+"@typescript-eslint/eslint-plugin@npm:8.46.3, @typescript-eslint/eslint-plugin@npm:^8.46.3":
   version: 8.46.3
   resolution: "@typescript-eslint/eslint-plugin@npm:8.46.3"
   dependencies:
@@ -2244,7 +2244,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:8.46.3, @typescript-eslint/parser@npm:^8.36.0, @typescript-eslint/parser@npm:^8.46.3":
+"@typescript-eslint/parser@npm:8.46.3, @typescript-eslint/parser@npm:^8.46.3":
   version: 8.46.3
   resolution: "@typescript-eslint/parser@npm:8.46.3"
   dependencies:
@@ -2372,7 +2372,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:8.46.3, @typescript-eslint/types@npm:^8.35.0, @typescript-eslint/types@npm:^8.37.0, @typescript-eslint/types@npm:^8.46.3":
+"@typescript-eslint/types@npm:8.46.3, @typescript-eslint/types@npm:^8.35.0, @typescript-eslint/types@npm:^8.46.3":
   version: 8.46.3
   resolution: "@typescript-eslint/types@npm:8.46.3"
   checksum: 10/3de35df2ec2f2937c8f6eb262cd49f34500a18d01e0d8da6f348afd621f6c222c41d4ea15203ebbf0bd59814aa2b4c83fde7eb6d4aad1fa1514ee7a742887c6a
@@ -2627,26 +2627,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/eslint-plugin@npm:^1.3.26":
-  version: 1.4.0
-  resolution: "@vitest/eslint-plugin@npm:1.4.0"
-  dependencies:
-    "@typescript-eslint/scope-manager": "npm:^8.46.1"
-    "@typescript-eslint/utils": "npm:^8.46.1"
-  peerDependencies:
-    eslint: ">=8.57.0"
-    typescript: ">=5.0.0"
-    vitest: "*"
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-    vitest:
-      optional: true
-  checksum: 10/c685f9b2b78d82004c2a235156dc56f734f6d6c6ca95a8e7678a87f3fa4e6d05be3672215c2503dfda4da0f769f858df2b7572b65ffff91c74e4ef9783d41394
-  languageName: node
-  linkType: hard
-
-"@vitest/eslint-plugin@npm:^1.4.2":
+"@vitest/eslint-plugin@npm:^1.4.0, @vitest/eslint-plugin@npm:^1.4.2":
   version: 1.4.2
   resolution: "@vitest/eslint-plugin@npm:1.4.2"
   dependencies:
@@ -4528,7 +4509,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^9.38.0, eslint@npm:^9.39.1":
+"eslint@npm:^9.39.1":
   version: 9.39.1
   resolution: "eslint@npm:9.39.1"
   dependencies:
@@ -5174,7 +5155,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^16.4.0, globals@npm:^16.5.0":
+"globals@npm:^16.5.0":
   version: 16.5.0
   resolution: "globals@npm:16.5.0"
   checksum: 10/f9e8a2a13f50222c127030a619e283e7bbfe32966316bdde0715af1d15a7e40cb9c24ff52cad59671f97762ed8b515353c2f8674f560c63d9385f19ee26735a6
@@ -9123,7 +9104,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsdown@npm:^0.15.11":
+"tsdown@npm:^0.15.12":
   version: 0.15.12
   resolution: "tsdown@npm:0.15.12"
   dependencies:
