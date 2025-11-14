@@ -1,5 +1,5 @@
 {
-  "extends": "./.yarn/unplugged/@imccausl-dev-virtual-d6258cbeaf/node_modules/@imccausl/dev/lib/types/tsconfig.default.json",
+  "extends": "@imccausl/dev/tsconfig.json",
   "include": [
     "src",
     "eslint.config.js",
